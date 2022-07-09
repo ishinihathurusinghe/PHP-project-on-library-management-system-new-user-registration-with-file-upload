@@ -19,7 +19,7 @@ if(isset($_GET["action"], $_GET['status'], $_GET['code']) && $_GET["action"] == 
 	$data = array(
 		':user_status'		=>	$status,
 		':user_updated_on'	=>	get_date_time($connect),
-		':user_id'			=>	$user_id
+		':user_id'			=>$user_id
 	);
 
 	$query = "
