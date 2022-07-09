@@ -1,6 +1,5 @@
 <?php
 
-//user_registration.php
 
 
 
